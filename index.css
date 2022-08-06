@@ -1,0 +1,113 @@
+@font-face {
+    src: url("./CursedTimer.ttf");
+    font-family: Timer;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: #0C4A6E;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 40px;
+    color: #EEEEEE;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.score {
+    display: flex;
+    width: 155px; 
+    height: 120px;
+    background-color: #080001;
+    font-family: Timer;
+    color: #F94F6D;
+    margin-bottom: 29px; 
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 90px;
+    font-weight: 400;
+    border-radius: 5px; 
+     
+}
+
+.leadMode {
+    background-color: #F94F6D;
+    color: #080001;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 45px;
+    height: 45px;
+    font-family: Timer;
+    font-size: 18px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.correct-btn {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.div-timer {
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Timer;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+    padding-top: 10px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+     background-color: #075985;
+}
+
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+}  
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #075985;
+    color: lightgray;
+}
+
+.newgame-btn {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    border: 3px solid #9AABD8;
+    border-radius: 10px;
+    background-color: #0284C7;
+    color: #9AABD8;
+}
