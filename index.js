@@ -9,6 +9,9 @@ let remainingSeconds = 60
 let pauseFlag = false
 let myTime
 
+// comment added 05-08-2022
+
+
 function updateHomeScore() {
     homeScoreEl.textContent = homeScore
     determineLead()
